@@ -1,0 +1,35 @@
+/*-----------------
+    Fonts 
+--------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,900;1,700&display=swap');
+
+/*----------------------
+    Common Styles
+-----------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+:root {
+    --common-heading-color: #18191F;
+    --common-heading-size: 28px;
+    --common-paragraph-color: #6C6C6C;
+    --common-paragraph-size: 16px;
+}
