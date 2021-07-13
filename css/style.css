@@ -34,3 +34,121 @@ p {
     --common-paragraph-color: #6C6C6C;
     --common-paragraph-size: 16px;
 }
+/*------------------------------------------
+    Top Section -Navbar & Showcase Styles
+----------------------------------------------*/
+#top-section {
+    background: #2D25A0;
+    color: #fff;
+    padding-top: 42px;
+    padding-bottom: 86px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .nav-items{
+    display: flex;
+
+}
+.navbar .nav-items .nav-item {
+    list-style: none;
+    margin-right: 36px;
+}
+.navbar .nav-items .nav-item:last-child {
+    margin-right: 0;
+}
+.navbar .nav-items .nav-item .nav-link{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.login-btn, .watch-live-btn, .highlights-btn {
+    padding: 10px 24px;
+    background: #E02C6D;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    margin-left: 8px;
+}
+.showcase-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 67px;
+}
+.showcase-title {
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+    margin-bottom: 27px;
+    margin-right: 8px;
+}
+.showcase-img > img {
+    width: 556px;
+    height: 438px;
+}
+
+/*---------------------------
+    players-section Styles
+-----------------------------*/
+#players-section {
+    padding: 70px 0;
+}
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+}
+.player {
+    padding: 15px;
+    width: 300px;
+    box-shadow: 5px 5px 5px 5px #00000017;
+}
+.player-thumbnail img {
+    width: 300px;
+    height: 256px;
+}
+.player-name {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--common-heading-color);
+}
+.about-player, .highlights-text {
+    text-align: justify;
+    font-size: 16px;
+    color: var(--common-paragraph-color);
+    padding-bottom: 5px;
+}
+
+/*-------------------------------
+    Highlights Section Styles
+------------------------------*/
+#highlights-section {
+    padding: 80px 0;
+}
+.highlights-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.highlights-left {
+    padding-right: 65px;
+}
+.highlights-title {
+    font-size: 48px;
+    color: var(--common-heading-color);
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 8px;
+}
+.highlights-btn {
+    margin-left: 0;
+    margin-top: 24px;
+}
+.highlights-thumbnail img {
+    width: 567px;
+    height: 427px;
+}
