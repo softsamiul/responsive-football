@@ -448,8 +448,11 @@ p {
     }
     /* Footer responsive css  */
     .footer-logo img {
-        width: 260px;
+        width: 250px;
         height: auto;
+    }
+    .social-info .fab {
+        font-size: 20px;
     }
 }
 
