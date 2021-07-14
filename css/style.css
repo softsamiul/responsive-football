@@ -38,19 +38,25 @@ p {
     Top Section -Navbar & Showcase Styles
 ----------------------------------------------*/
 #top-section {
-    background: #2D25A0;
+    /* background: #2D25A0; */
     color: #fff;
     padding-top: 42px;
     padding-bottom: 86px;
+    background: hsla(197, 100%, 63%, 1);
+    background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+}
+.fa-bars {
+    display: none;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.fa-bars {
-    display: none;
-}
+
 .navbar .nav-items{
     display: flex;
 
@@ -67,7 +73,7 @@ p {
     font-weight: 500;
     font-size: 16px;
 }
-.login-btn, .watch-live-btn, .highlights-btn {
+.login-btn, .watch-live-btn, .highlights-btn, .msg-btn {
     padding: 10px 24px;
     background: #E02C6D;
     font-weight: 500;
@@ -162,7 +168,7 @@ p {
 #top-clubs {
     padding: 100px 0;
 }
-.top-clubs-title {
+.top-clubs-title,  .contact-titile {
     font-size: 36px;
     color: var(--common-heading-color);
     text-align: center;
@@ -176,7 +182,7 @@ p {
 }
 .club {
     /* width: 300px; */
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.048);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.16);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -197,6 +203,49 @@ p {
 .club-title {
     font-size: 24px;
     color: var(--common-heading-color);
+}
+/*----------------------------
+    Contact us section styles
+-------------------------------*/
+#contact-us {
+    padding: 65px 0;
+    background: hsla(197, 100%, 63%, 1);
+    background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+}
+.contact-titile {
+    color: #fff;
+    margin-bottom: 0;
+}
+.design-form {
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .17);
+    padding: 50px;
+}
+.design-form label {
+    font-weight: bold;
+    font-style: 18px;
+    color: var(--common-heading-color);
+    color: #fff;
+}
+.design-form input, textarea{
+    width: 100%;
+    border: 2px solid #fff;
+    padding: 10px;
+    font-size: 16px;
+}
+.design-form input{
+    margin-bottom: 8px;
+}
+.msg-btn {
+    margin-left: 0;
+    margin-top: 10px;
+}
+.msg-btn a{
+    color: #fff;
 }
 /*---------------------------
     Footer Section Styles
@@ -221,6 +270,9 @@ p {
 }
 .footer-text {
     text-align: center;
+}
+.footer-text.designer-credit {
+    color: #2D25A0;
 }
 
 /*-------------------------
@@ -307,11 +359,11 @@ p {
     .clubs {
         grid-template-columns: repeat(1, 1fr );
     }
+    .club {
+        box-sizing: border-box;
+    }
     .club-title {
         font-size: 30px;
-    }
-    #footer-section {
-        /* display: none; */
     }
     .footer-logo img {
         width: 260px;
