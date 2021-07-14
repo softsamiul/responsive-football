@@ -350,6 +350,9 @@ p {
         height: 260px;
     }
     /* Players Section responsive css  */
+    #players-section{
+        padding: 30px 0;
+    }
     .players {
         grid-template-columns: repeat(1, 1fr);
         padding: 0 15px;
@@ -366,7 +369,14 @@ p {
         width: 300px;
         height: 256px;
     }
+    .player-name {
+        font-size: 24px;
+        font-weight: 500;
+    }
     /* Upcoming match section responsive css  */
+    #upcoming-matches {
+        padding: 30px 20px;
+    }
     .upcoming-match-info {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -381,8 +391,8 @@ p {
         padding-right: 0;
     }
     .highlights-title {
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 24px;
+        line-height: 30px;
     }
     .highlights-btn {
         margin-bottom: 29px;
@@ -399,8 +409,10 @@ p {
     #top-clubs {
         padding: 25px 0;
     }
-    .top-clubs-title {
+    .top-clubs-title,  .contact-titile, .upcoming-title {
         font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 50px;
     }
     .clubs {
         grid-template-columns: repeat(3, 1fr );
