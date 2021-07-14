@@ -28,6 +28,16 @@ p {
     width: 1160px;
     margin: 0 auto;
 }
+.btn-txt-clr {
+    color: #fff;
+}
+.btn {
+    transition: background-color 1s ease-in-out;
+    border: none;
+}
+.btn:hover {
+    background-color: #2D25A0;
+}
 :root {
     --common-heading-color: #18191F;
     --common-heading-size: 28px;
@@ -38,7 +48,6 @@ p {
     Top Section -Navbar & Showcase Styles
 ----------------------------------------------*/
 #top-section {
-    /* background: #2D25A0; */
     color: #fff;
     padding-top: 42px;
     padding-bottom: 86px;
@@ -48,7 +57,7 @@ p {
     background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
 }
-.fa-bars {
+.bar{
     display: none;
 }
 .navbar {
@@ -59,7 +68,7 @@ p {
 
 .navbar .nav-items{
     display: flex;
-
+    justify-content: flex-start;
 }
 .navbar .nav-items .nav-item {
     list-style: none;
@@ -78,7 +87,6 @@ p {
     background: #E02C6D;
     font-weight: 500;
     font-size: 16px;
-    border: none;
     color: #fff;
     margin-left: 8px;
 }
@@ -284,20 +292,24 @@ p {
     .container {
         width: 100%;
     }
+    /* Navbar responsive css  */
     .navbar {
         /* flex-direction: column; */
         flex-wrap: wrap;
         padding: 0 20px;
         box-sizing: border-box;
     }
-    .fa-bars {
+    .bar {
         display: inline-block;
+    }
+    .fa-bars { 
         font-size: 24px;
         color: #fff;
     }
     .navbar .nav-items {
         display: none;
     }
+    /* Showcase section responsive css  */
     .showcase-wrapper {
         flex-direction: column;
         padding: 0 20px;
@@ -315,6 +327,7 @@ p {
         max-width: 320px;
         height: 260px;
     }
+    /* Players Section responsive css  */
     .players {
         grid-template-columns: repeat(1, 1fr);
         padding: 0 15px;
@@ -331,8 +344,8 @@ p {
         width: 300px;
         height: 256px;
     }
+    /* Highlights section responsive css  */
     #highlights-section{
-        /* display: none; */
         padding: 15px;
     }
     .highlights-wrapper {
@@ -356,6 +369,7 @@ p {
         width: 100%;
         height: auto;
     }
+    /* Clubs section responsive css  */
     .clubs {
         grid-template-columns: repeat(1, 1fr );
     }
@@ -365,6 +379,16 @@ p {
     .club-title {
         font-size: 30px;
     }
+    /* Contact us section responsive css  */
+    .contact-titile {
+        margin-bottom: 15px;
+    }
+    .design-form {
+        width: 70%;
+        padding: 0;
+        box-shadow: none;
+    }
+    /* Footer responsive css  */
     .footer-logo img {
         width: 260px;
         height: auto;
