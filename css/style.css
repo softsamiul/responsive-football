@@ -270,6 +270,9 @@ p {
 .design-form input{
     margin-bottom: 8px;
 }
+.form-group textarea {
+    font-family: 'Poppins', sans-serif;
+}
 .msg-btn {
     margin-left: 0;
     margin-top: 10px;
