@@ -218,7 +218,7 @@ p {
         margin-bottom: 50px;
     }
     .showcase-img img {
-        max-width: 260px;
+        max-width: 320px;
         height: 260px;
     }
     .players {
@@ -233,16 +233,34 @@ p {
     .player-details {
         width: 100%;
     }
-    /* .player-thumbnail{
-        width: 300px;
-        height: 256px;
-    } */
     .player-thumbnail img {
         width: 300px;
         height: 256px;
     }
     #highlights-section{
-        display: none;
+        /* display: none; */
+        padding: 15px;
+    }
+    .highlights-wrapper {
+        flex-direction: column;
+    }
+    .highlights-left {
+        padding-right: 0;
+    }
+    .highlights-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .highlights-btn {
+        margin-bottom: 29px;
+    }
+    .highlights-thumbnail {
+        width: 300px;
+        height: 230px;
+    }
+    .highlights-thumbnail img{
+        width: 100%;
+        height: auto;
     }
     #footer-section {
         display: none;
