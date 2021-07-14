@@ -435,7 +435,8 @@ p {
     }
     /* Contact us section responsive css  */
     #contact-us {
-        padding-bottom: 0;
+        padding-top: 20px;
+        padding-bottom: 10px;
     }
     .contact-titile {
         margin-bottom: 15px;
@@ -551,33 +552,33 @@ p {
         height: auto;
     }
 
-        /* Clubs section responsive css  */
-        #top-clubs {
-            padding: 25px 0;
-        }
-        .top-clubs-title,  .contact-titile, .upcoming-title {
-            font-size: 36px;
-            line-height: 30px;
-            /* margin-bottom: 50px; */
-        }
-        .clubs {
-            grid-template-columns: repeat(3, 1fr );
-            grid-column-gap: 5px;
-            grid-row-gap: 5px;
-        }
-        .club {
-            box-sizing: border-box;
-            padding: 10px 0;
-            text-align: center;
-            box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.16);
-        }
-        .club-thumbnail {
-            width: 100px;
-        }
-        .club-title {
-            font-size: 20px;
-            font-weight: 400;
-        }
+    /* Clubs section responsive css  */
+    #top-clubs {
+        padding: 25px 0;
+    }
+    .top-clubs-title,  .contact-titile, .upcoming-title {
+        font-size: 36px;
+        line-height: 30px;
+        /* margin-bottom: 50px; */
+    }
+    .clubs {
+        grid-template-columns: repeat(3, 1fr );
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+    .club {
+        box-sizing: border-box;
+        padding: 10px 0;
+        text-align: center;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.16);
+    }
+    .club-thumbnail {
+        width: 100px;
+    }
+    .club-title {
+        font-size: 20px;
+        font-weight: 400;
+    }
     /* Contact us section responsive css  */
     #contact-us {
         padding-top: 30px;
