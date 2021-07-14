@@ -309,7 +309,7 @@ p {
     Responsive styles
 -----------------------------*/
 
-/* Mobile device */
+/* For Mobile devices */
 
 @media only screen and (max-width: 688px) {
     .container {
